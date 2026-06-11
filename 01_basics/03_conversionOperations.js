@@ -35,12 +35,12 @@ undefined-> false
 
 let name=" "
 
-console.log(typeof name)
+// console.log(typeof name)
 
 let isString = String(name)
 
-console.log(typeof isString)
-console.log(isString)
+// console.log(typeof isString)
+// console.log(isString)
 
 /*
 
@@ -51,3 +51,20 @@ undefined -> undefined to string -> undefined
 "" -> string to string -> empty
 " " -> string to string -> may be space
 */
+
+//-------------OPerations
+
+let value = 3
+let negValue = -value
+// console.log(negValue)
+let str1="hello"
+let str2=" kartike"
+
+let str3 = str1 + str2
+
+// console.log(str3)
+
+// console.log("1" + 2) // Op is 12
+// console.log(2 + 2 + "3") //op is 43
+// console.log(2 + 2 + "3" + 3 + 3) // op is 4333..it means ki bas aage vale hi jodti hai ek baar string aa jaaye fir nhi jodti.
+
