@@ -16,5 +16,27 @@ const bill = 304.765678
 
 const cash = 10000000
 
-console.log(cash.toLocaleString()) // puts commas for better readability of numbers, bh default US standards
-console.log(cash.toLocaleString('en-IN')) // for Indian Standards
+// console.log(cash.toLocaleString()) // puts commas for better readability of numbers, bh default US standards
+// console.log(cash.toLocaleString('en-IN')) // for Indian Standards
+
+
+//******************************************* Maths ******************************************************************************** */
+
+//math library accessed by .Math provides multiple function can be shown in console of the browser
+//Math.abs, Math.min, Math.max, Math.round, Math.ciel, Math.floor, etc provides basic functionalities as we all know, nothing coplex
+
+// console.log(Math.abs(-32))
+// console.log(Math.round(23.64))
+// console.log(Math.floor(23.64))
+
+//Math.random()-> gives random values between 0 & 1 all the time .
+
+console.log(Math.random())
+console.log(Math.floor(Math.random()*10) + 1)
+
+//when the range is defined
+const min =10
+const max =20
+
+console.log(Math.floor(Math.random() * (max-min+1)) + min)
+
