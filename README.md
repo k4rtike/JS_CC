@@ -1,5 +1,5 @@
 # JS_CC
-Code repo for JS oneshot learning
+Code repo for learning JavaScript in experimental way.
 
 Documentation to read about JS functions methods and all other things
 
