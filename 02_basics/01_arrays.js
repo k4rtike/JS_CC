@@ -36,12 +36,12 @@ const arr=[1,2,3,4,5,6,7]
 // console.log(newarr);
 // console.log(typeof(newarr)) // string
 
-console.log("Orig. Array ", arr)
+// console.log("Orig. Array ", arr)
 
-console.log(arr.slice(2,5))
+// console.log(arr.slice(2,5))
 
-console.log("After Slice: ", arr)
+// console.log("After Slice: ", arr)
 
-console.log(arr.splice(2,5)) // splice(starting, count)
+// console.log(arr.splice(2,5)) // splice(starting, count)
 
-console.log("After Splicing: ", arr)
+// console.log("After Splicing: ", arr)
